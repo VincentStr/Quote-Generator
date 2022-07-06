@@ -24,7 +24,7 @@
     align-items: center;
     text-align: center;
     border-radius: 100px;
-    padding: 100px;
+    padding: 50px;
     position: relative;
     transition: 1s;
     background-color: rgba(0, 0, 0, 0.542);
@@ -38,8 +38,8 @@
 #all{
     max-width: 100%;
     max-height: auto;
-    padding: 100px;
-    background-color:aliceblue;
+    padding: 50px;
+    background-color:rgb(210, 210, 210);
 }
 .genBtn{
     border-style: none;
@@ -54,6 +54,28 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+
+@media only screen and (max-width: 1200px) {
+  
+    .quoteBox{
+        padding: 10px;
+    }
+    .quoteText{
+        font-size: 1.7rem;
+    }
+
+  
+   
+  }
+
+
+
+.dashedLine{
+    border-top:2px dashed aliceblue;;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+}
 @media only screen and (max-width: 800px) {
     .box{
         margin: 50px;
@@ -71,5 +93,43 @@
     .genBtn{
         font-size: 3rem;
     }
+   
+  }
+
+
+
+
+  
+@media only screen and (max-width: 400px) {
+    .box{
+        margin: 10px;
+        padding: 15px;
+    }
+    .quoteBox{
+        padding: 20px;
+    }
+    .quoteText{
+        font-size: 1rem;
+    }
+    #all{
+        padding: 0px;
+    }
+    .genBtn{
+        font-size: 1rem;
+    }
+
+    .quoteBtn{
+
+        border-radius: 20px;
+        min-height: 20px;
+        color:aliceblue;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 1s;
+        color: rgba(137, 43, 226, 0.101);
+        z-index: 1;
+        padding: 5px;
+    }
+    
    
   }
